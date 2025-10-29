@@ -34,7 +34,7 @@ params:
   feedlinks: false
   icon: "favicon.png"
   image: "favicon.png"
-  logoPath: "statml.png"
+  logoPath: "images/statml.png"
   imageMaxWidth: 400
   logoWidth: 300
   logoHeight: 100

@@ -15,14 +15,24 @@ A Finnish robotics company providing experice on various robotics related proble
 {{< figure src="images/nokia.png" >}}
 
 # Academic
-## Professor Junichi Yamagishi
+## University of Eastern Finland
 
-## Kristiina Jokinen
+### Professor Tomi Kinnunen
 
-## Andrew Melnik
+### Professor Matti Tedre
 
-## Professor Tomi Kinnunen
+### Professor Ursula Schwab
 
-## Professor Matti Tedre
+### Professor Merja Heinäniemi
 
-## Doctor Rosa González Hautamäki
+### Doctor Outi Kähkönen
+
+### Doctor Rosa González Hautamäki
+
+## Others
+
+### Professor Junichi Yamagishi
+
+### Doctor Andrew Melnik
+
+### Doctor Kristiina Jokinen
