@@ -1,4 +1,8 @@
 ---
+caches:
+  images:
+    dir: :cacheDir/images
+
 title: "Statistical Machine Learning"
 baseURL: "example.org"
 theme: "github.com/frjo/hugo-theme-zen/v5"
