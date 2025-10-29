@@ -9,4 +9,4 @@ Offices: Science Park, building 1, B336
 
 [GitHub](https://github.com/Hautamaki-lab)
 
-[Bluesky](@stat-ml.bsky.social)
+[Bluesky](https://bsky.app/profile/stat-ml.bsky.social)
