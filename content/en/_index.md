@@ -2,7 +2,7 @@
 title: Statistical Machine Learning
 ---
 # About us
-Statistical Machine Learning-group is one of the leardin artificial intelligence and machine learning research groups in Finland. Located at the University of Eastern Finland's Joensuu campus, the group conducts foundational research in wide range of topics such as:
+Statistical Machine Learning-group is one of the leading artificial intelligence and machine learning research groups in Finland. Located at the University of Eastern Finland's Joensuu campus, the group conducts foundational research in wide range of topics such as:
 
 - Reinforcement Learning (RL)
 - Imitation Learning (IL)
