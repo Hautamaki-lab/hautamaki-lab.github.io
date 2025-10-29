@@ -1,13 +1,12 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "Statistical Machine Learning"
+baseURL: "example.org"
 theme: "github.com/frjo/hugo-theme-zen/v5"
-copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
-rssLimit: 20
+rssLimit: 5
 pagination:
   pagerSize: 10
   path: page
@@ -22,38 +21,26 @@ markup:
   highlight:
     style: github
 
-outputFormats:
-  SearchIndex:
-    mediaType: "application/json"
-    baseName: "searchindex"
-    isPlainText: true
-    notAlternative: true
-
-outputs:
-  home: ["HTML","RSS", "JSON", "SearchIndex"]
-  section: ["HTML","RSS", "JSON"]
 
 params:
-  author:
-    name: "Fredrik Jonsson"
-    url: "https://xdeb.org"
-  contact: "frjo@xdeb.org"
-  description: "The zen theme for Hugo demo site."
+  contact: "example.org"
+  description: "UEF Statistical Machine Learning"
   dateformat: "2 January, 2006"
-  favicon: "apple-touch-icon.png"
-  feedlinks: true
-  icon: "apple-touch-icon.png"
-  image: "apple-touch-icon.png"
+  favicon: "favicon.ico"
+  feedlinks: false
+  icon: "favicon.png"
+  image: "favicon.png"
+  logoPath: "statml.png"
   imageMaxWidth: 400
-  logoWidth: 64
-  logoHeight: 64
+  logoWidth: 300
+  logoHeight: 100
   mainSections:
-    - blog
+    - news
   mobileMenu: true
-  poweredby: true
   realfavicongenerator: true
   sidebar: false
-  submitted: true
+  submitted: false
+  footer: "[GitHub](https://github.com/Hautamaki-lab) [UEF School of Computing](https://www.uef.fi/en/unit/school-of-computing)"
 
 languages:
   en:
@@ -66,33 +53,21 @@ languages:
         - Name: "Home"
           weight: -10
           pageRef: "/"
-        - Name: "Blog"
+        - Name: "News"
           weight: 2
-          pageRef: "/blog/"
-        - Name: "Podcast"
+          pageRef: "/news/"
+        - Name: "People"
+          weight: 2
+          pageRef: "/people/"
+        - Name: "Publications"
           weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
-        - Name: "Search"
-          weight: 10
-          pageRef: "/search/"
+          pageRef: "/publications/"
+        - Name: "Collaborations"
+          weight: 4
+          pageRef: "/collaborations/"
+        - Name: "Projects"
+          pageRef: "/projects/"
+          weight: 4
         - Name: "Contact"
-          weight: 12
+          weight: 8
           pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"
-

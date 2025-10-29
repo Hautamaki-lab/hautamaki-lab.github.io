@@ -1,6 +1,6 @@
 {
-  "name": "Zen demo",
-  "short_name": "Zen demo",
+  "name": "Statistical Machine Learning",
+  "short_name": "StatML",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
