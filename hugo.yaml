@@ -44,6 +44,7 @@ params:
   realfavicongenerator: true
   sidebar: false
   submitted: false
+  logo: false
   footer: "[GitHub](https://github.com/Hautamaki-lab) [UEF School of Computing](https://www.uef.fi/en/unit/school-of-computing) [Bluesky](https://bsky.app/profile/stat-ml.bsky.social)"
 
 languages:
